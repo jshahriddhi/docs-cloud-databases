@@ -30,3 +30,11 @@ When making an API call to create, list, or delete database instance(s), the fol
 	If the database engine has crashed (causing the SHUTDOWN status), please call support for assistance.
 
 -  ERROR – The last operation for the database instance failed due to an error.
+
+-  RESTART - The MySQL service is restarting on the instance.
+
+-  CONVERT\_TO\_HA - The database instance is being configured for HA conversion.
+
+-  DELETION\_PENDING - The database instance is scheduled for deletion.
+
+-  REPLICATION\_ERROR - Replication is broken on the database instance.
